@@ -10,7 +10,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
         <div className="flex justify-between items-center h-16">
           <a href="#home" className="font-mono text-xl font-bold text-white">
             {" "}
-            pedro<span className="text-blue-500">.tech</span>{" "}
+            Bhavesh<span className="text-blue-500">.Coded</span>{" "}
           </a>
 
           <div
@@ -20,7 +20,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             &#9776;
           </div>
 
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-12">
             <a
               href="#home"
               className="text-gray-300 hove:text-white transition-colors"
@@ -28,12 +28,20 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               {" "}
               Home
             </a>
+      
             <a
               href="#about"
               className="text-gray-300 hove:text-white transition-colors"
             >
               {" "}
               About{" "}
+            </a>
+            <a
+              href="#home"
+              className="text-gray-300 hove:text-white transition-colors"
+            >
+              {" "}
+              Blogs
             </a>
             <a
               href="#projects"

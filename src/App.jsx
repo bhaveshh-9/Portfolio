@@ -8,6 +8,9 @@ import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
 import "./index.css";
 import { Contact } from "./components/sections/Contact";
+import {Blogs} from "./components/sections/Blogs";
+import {Admin} from "./components/sections/Admin";
+
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -27,6 +30,8 @@ function App() {
         <About />
         <Projects />
         <Contact />
+        <Blogs />
+        <Admin />
       </div>
     </>
   );

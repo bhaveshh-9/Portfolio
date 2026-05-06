@@ -3,13 +3,14 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
   const frontendSkills = [
     "React",
-    "Vue",
-    "TypeScript",
+    "Next.js",
     "TailwindCSS",
-    "Svelte",
+    "JavaScript",
+    "HTML",
+    "CSS",
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Php", "Spring Boot", "MySql", "MongoDB", "Spring MVC"];
 
   return (
     <section
@@ -69,12 +70,11 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong> BCA </strong> - North Maharashtra University
+                  (2022–2025)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                 Relevant Coursework: Data Structures, Web Development, Database Management Systems, Software Engineering, PHP Full Stack Development....
                 </li>
               </ul>
             </div>
@@ -84,22 +84,10 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    Passion Software Solutions (June-2024 to Jan2025){" "}
                   </h4>
                   <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Intern at DEF Startups (2019){" "}
-                  </h4>
-                  <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                    Successfully completed 6-month PHP Full Stack Development training, gaining practical experience in PHP, MySQL, frontend technologies and APIs.
                   </p>
                 </div>
               </div>
